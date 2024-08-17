@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Explanation of Key Code Sections:
+State Management (useState):
+
+categories state manages the list of categories and widgets within them.
+addWidget and removeWidget functions update this state when a user adds or removes a widget.
+Dashboard Component:
+
+Iterates over the categories and displays the widgets within each category.
+Includes a button to add a new widget to the category.
+Widget Component:
+
+Represents an individual widget with its title, content, and a remove button.
